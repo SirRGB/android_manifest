@@ -4,6 +4,10 @@
   <remote  name="cipher"
            fetch="https://github.com/CipherOS"
            revision="eleven" />
+
+  <remote  name="cipher-rev"
+           fetch="https://github.com/CipherOS-Revived"
+           revision="eleven" />
            
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
@@ -29,8 +33,8 @@
   <contactinfo bugurl="go/repo-bug" />
 
   <!--Cipher OS Additions -->
-  <project path="android" name="android_manifest" remote="cipher" />  
-  <project path="build/make" name="android_build" groups="pdk" remote="cipher" >
+  <project path="android" name="android_manifest" remote="cipher-rev" />  
+  <project path="build/make" name="android_build" groups="pdk" remote="cipher-rev" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -46,7 +50,7 @@
   <project path="device/lineage/sepolicy" name="android_device_cipher_sepolicy" remote="cipher" />  
   <project path="external/faceunlock" name="CipherOS/android_external_faceunlock" revision="eleven" remote="gitlab"/>
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cipher" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cipher" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cipher-rev" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="cipher" />
   <project path="packages/apps/CipherShades" name="android_packages_apps_CipherShades" remote="cipher" />
   <project path="hardware/lineage/interfaces" name="android_hardware_cipher_interfaces" remote="cipher" />  
@@ -54,7 +58,7 @@
   <project path="packages/apps/LineageParts" name="android_packages_apps_CipherParts" remote="cipher" /> 
   <project path="external/selinux" name="android_external_selinux" remote="cipher" />
   <!-- <project path="packages/apps/OmniStyle" name="android_packages_apps_Omnistyle" groups="pdk-fs" remote="cipher"/> -->
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="cipher" /> 
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="cipher-rev" /> 
   <project path="packages/apps/CipherSettings" name="android_packages_apps_CipherSettings" groups="pdk-fs" remote="cipher" /> 
   <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" groups="pdk-fs" remote="cipher" /> 
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cipher" /> 
@@ -483,7 +487,7 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="cipher" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="cipher" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="cipher-rev" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/tv/tvsystem" name="platform/frameworks/opt/tv/tvsystem" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
