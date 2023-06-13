@@ -33,8 +33,8 @@
   <contactinfo bugurl="go/repo-bug" />
 
   <!--Cipher OS Additions -->
-  <project path="android" name="android_manifest" remote="cipher-rev" />
-  <project path="build/make" name="android_build" groups="pdk" remote="cipher-rev" >
+  <project path="android" name="SirRGB/android_manifest" revision="eleven" />
+  <project path="build/make" name="SirRGB/android_build-1" groups="pdk" revision="eleven" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -50,18 +50,18 @@
   <project path="device/lineage/sepolicy" name="android_device_cipher_sepolicy" remote="cipher" />
   <project path="external/faceunlock" name="CipherOS/android_external_faceunlock" revision="eleven" remote="gitlab"/>
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cipher-rev" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cipher-rev" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="cipher-rev" />
+  <project path="frameworks/base" name="SirRGB/android_frameworks_base-2" groups="pdk-cw-fs,pdk-fs" revision="eleven" />
+  <project path="frameworks/native" name="SirRGB/android_frameworks_native-1" groups="pdk" revision="eleven" />
   <project path="packages/apps/CipherShades" name="android_packages_apps_CipherShades" remote="cipher" />
   <project path="hardware/lineage/interfaces" name="android_hardware_cipher_interfaces" remote="cipher" />
   <project path="lineage-sdk" name="android_cipher-sdk" remote="cipher" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_CipherParts" remote="cipher" />
   <project path="external/selinux" name="android_external_selinux" remote="cipher" />
   <!-- <project path="packages/apps/OmniStyle" name="android_packages_apps_Omnistyle" groups="pdk-fs" remote="cipher"/> -->
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="cipher-rev" />
+  <project path="packages/apps/Settings" name="SirRGB/android_packages_apps_Settings-1" groups="pdk-fs" revision="eleven" />
   <project path="packages/apps/CipherSettings" name="android_packages_apps_CipherSettings" groups="pdk-fs" remote="cipher" />
   <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" groups="pdk-fs" remote="cipher" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cipher" />
+  <project path="packages/apps/Trebuchet" name="SirRGB/android_packages_apps_Trebuchet" revision="eleven" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="cipher-rev" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="cipher" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="cipher" />
@@ -625,7 +625,7 @@
   <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" remote="aosp" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" remote="aosp" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="cipher" />
-  <project path="packages/inputmethods/LatinIME" name="SirRGB/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+  <project path="packages/inputmethods/LatinIME" name="SirRGB/android_packages_inputmethods_LatinIME" groups="pdk-fs" revision="eleven" />
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs" remote="aosp" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="packages/modules/CaptivePortalLogin" name="LineageOS/android_packages_modules_CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" />
