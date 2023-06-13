@@ -51,7 +51,7 @@
   <project path="external/faceunlock" name="CipherOS/android_external_faceunlock" revision="eleven" remote="gitlab"/>
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cipher-rev" />
   <project path="frameworks/base" name="SirRGB/android_frameworks_base-2" groups="pdk-cw-fs,pdk-fs" revision="eleven" />
-  <project path="frameworks/native" name="SirRGB/android_frameworks_native-1" groups="pdk" revision="eleven" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="cipher-rev" />
   <project path="packages/apps/CipherShades" name="android_packages_apps_CipherShades" remote="cipher" />
   <project path="hardware/lineage/interfaces" name="android_hardware_cipher_interfaces" remote="cipher" />
   <project path="lineage-sdk" name="android_cipher-sdk" remote="cipher" />
