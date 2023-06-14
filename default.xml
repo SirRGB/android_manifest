@@ -49,7 +49,7 @@
   </project>
   <project path="device/lineage/sepolicy" name="android_device_cipher_sepolicy" remote="cipher" />
   <project path="external/faceunlock" name="CipherOS/android_external_faceunlock" revision="eleven" remote="gitlab"/>
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cipher-rev" />
+  <project path="frameworks/av" name="SirRGB/android_frameworks_av-1" groups="pdk" revision="eleven" />
   <project path="frameworks/base" name="SirRGB/android_frameworks_base-2" groups="pdk-cw-fs,pdk-fs" revision="eleven" />
   <project path="frameworks/native" name="SirRGB/android_frameworks_native-1" groups="pdk" revision="eleven" />
   <project path="packages/apps/CipherShades" name="android_packages_apps_CipherShades" remote="cipher" />
@@ -664,7 +664,7 @@
   <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="aosp" />
   <project path="prebuilts/abi-dumps/ndk" name="platform/prebuilts/abi-dumps/ndk" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/abi-dumps/platform" name="platform/prebuilts/abi-dumps/platform" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/abi-dumps/vndk" name="platform/prebuilts/abi-dumps/vndk" groups="pdk-fs" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" revision="11.0" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/build-tools" name="LineageOS/android_prebuilts_build-tools" groups="pdk" clone-depth="1" />
@@ -740,7 +740,7 @@
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" remote="aosp" />
   <project path="system/libufdt" name="LineageOS/android_system_libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
-  <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp" />
+  <project path="system/linkerconfig" name="crdroidandroid/android_system_linkerconfig" groups="pdk" revision="11.0" />
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" />
   <project path="system/memory/libion" name="platform/system/memory/libion" groups="pdk" remote="aosp" />
   <project path="system/memory/libmeminfo" name="platform/system/memory/libmeminfo" groups="pdk" remote="aosp" />
