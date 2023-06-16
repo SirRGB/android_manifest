@@ -311,7 +311,7 @@
   <project path="external/libxaac" name="platform/external/libxaac" groups="pdk" remote="aosp" />
   <project path="external/libxkbcommon" name="platform/external/libxkbcommon" groups="pdk" remote="aosp" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" remote="aosp" />
-  <project path="external/libyuv" name="crdroidandroid/android_external_libyuv" groups="pdk,libyuv" revision="11.0" />
+  <project path="external/libyuv" name="SirRGB/android_external_libyuv" groups="pdk,libyuv" revision="11.0" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" clone-depth="1" remote="aosp" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/lmfit" name="platform/external/lmfit" groups="pdk" remote="aosp" />
